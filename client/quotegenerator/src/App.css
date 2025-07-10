@@ -1,0 +1,82 @@
+/* Background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Georgia', serif;
+  background: linear-gradient(to bottom right, #e4fdfd, #fff8e7);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Box */
+.quote-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px 30px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  max-width: 700px;
+  width: 90%;
+  min-height: 450px; /* stable size */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Heading */
+h1 {
+  font-size: 2.5rem;
+  color: #e63946;
+  background-color: #f1faee;
+  padding: 10px 25px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  display: inline-block;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Section */
+.quote-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.quote-form input[type="submit"] {
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.quote-form input[type="submit"]:hover {
+  background-color: #f9f9f9;
+  transform: scale(1.05);
+}
+
+/* Quote Display */
+h2 {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #4b3621;
+  background-color: #fffdfc;
+  padding: 20px;
+  border-left: 4px solid #e2b87b;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.05);
+  min-height: 60px;
+}
